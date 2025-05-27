@@ -1,0 +1,30 @@
+
+
+
+.button {
+    text-decoration: none;
+    color: black;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+
+    height: 15px;
+
+    &_button--bar {
+    width: 37px;
+    height: 4px;
+
+    top: 56px;
+    left: 509px;
+
+    border-radius: 8px;
+
+  }
+
+  &:active {
+    color: #00ACDC;
+  }
+}

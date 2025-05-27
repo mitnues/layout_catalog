@@ -1,0 +1,28 @@
+.nav {
+    position: relative;
+    display: flex;
+    margin: auto;
+
+    &_list {
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+
+    gap: 66px;
+    left: 509px;
+
+    list-style-type: none;
+
+}
+
+ &_list--menu-bar a:link:hover  {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    text-decoration-color: #00ACDC;
+
+}
+
+}
+
+
+
