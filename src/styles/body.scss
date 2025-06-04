@@ -1,3 +1,20 @@
 body {
   margin: 0;
+  width: 1200px;
+  
+  // position: relative;
 }
+
+@media (max-width: 488px) {
+
+     body {
+       display: flex;
+       justify-content: space-around;
+        width: 350px;
+     }
+
+  }
+
+  html {
+    width: auto;
+  }

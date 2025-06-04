@@ -1,6 +1,5 @@
 .review-card {
   display: flex;
-
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
@@ -8,16 +7,15 @@
   width: 169px;
   height: 16px;
 
-
   &_stars-list {
     display: flex;
-    flex-direction: row;
-    padding: 0;
+    flex-direction: row;   
     position: relative;
+
+    padding: 0;   
     margin-top: 0;
     margin-bottom: 0;
     width: 75px;
-
   }
 
   &_stars {
@@ -35,7 +33,7 @@
 
 
   &_number {
-    width: 50px;
+    width: 60px;
     height: 16px;
     white-space: nowrap;
     font-family: 'Courier New', Courier, monospace;
